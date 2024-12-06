@@ -1,0 +1,50 @@
+
+
+@media (min-width: 768px) {
+    
+    .perfil{
+        color: var(--branco);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 650px;
+        margin: auto;
+    }
+
+    .apresentacao{
+        display: block;
+        width: 10px;
+        
+    }
+
+    .linguagens{
+        display:flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        /*background-color: #9c9c9c;*/
+        width: 750px;
+        margin: auto;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    
+
+
+    .perfil{
+        color: var(--branco);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 800px;
+        margin: auto;
+    }
+
+    .apresentacao{
+        display: block;
+        width: 10px;
+    }
+
+
+}

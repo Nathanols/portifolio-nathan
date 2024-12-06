@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan de Oliveira</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+
+    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="titulo"><p>PORTIFOLIO</p></div>
+
+            <div class="icon-dark">
+                <i id ="mode_icon" class="fa-solid fa-moon"></i>
+            </div>
+
+            <div onclick="menuShow()" class="menu-icon">
+                <button><img src="imagens/menu_white_36dp.svg"></button>
+            </div>
+
+        </nav>
+    </header>
+        
+
+    <main id="portifolio">
+        <div class="menu">
+            <div class ="list">
+                <ul>
+                    <li>Sobre mim</li>
+                    <li>Habilidades</li>
+                    <li>Projetos</li>
+                </ul>
+            </div>
+        </div>
+
+            <div class="perfil">
+                <div class="foto">
+                    <img src="imagens/perfil.jpeg" alt="">
+                </div>
+                <div class="apresentacao" >
+                    <h1 class="letra">Olá, Meu nome é Nathan!</h1>
+                    <h2 class="letra">Desenvolvedor Web</h2>
+                    <div class="redes">
+                        <div class="caixa-redes">
+                            <a href="https://www.linkedin.com/in/nathan-luna/" target="_blank" ><img src="imagens/linkedin-white.png"></a>
+                        </div>
+                        <div class="caixa-redes">
+                            <a href="https://github.com/Nathanols" target="_blank" ><img src="imagens/github-white.png"></a>
+                        </div>
+                        <div class="caixa-redes">
+                            <a href="https://www.instagram.com/_nathan_ols/" target="_blank" ><img src="imagens/instagram-branco.png"></a>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+
+            <h3 class="letra">SOBRE MIM</h3>
+
+        <div class="caixa-sobre">
+            <div class="sobre">
+               <p class="letra">Olá, Bem vindos! Meu nome é Nathan e sou estudante na área da programação Front-end em busca de um estágio.
+                Cursando Análise e Desenvolvimento de Sistemas na Fatec-São Caetano do Sul.
+                
+                Nunca trabalhei na área de programação porém, sempre tive interesse em aprender a programar e estou desenvolvendo alguns projetos de sites em busca de aprendizado e evolução constante na área da programação.
+                
+                Estou tendo a oportunidade de exercer projetos pessoais utilizando as tecnologias HTML, CSS e JavaScript. Criação de sites, além de estar aprendendo a linguagem C, VBA, VB.NET, SQL na faculdade que estou cursando.</p>
+            </div>
+        </div>
+
+        <section>
+            <h1>Habilidades</h1>
+            <div class="linguagens">
+                <div class="caixas-ling">
+                    <button onclick="toggle('descricao-js')"><img src="imagens/javascript.png">  
+                    </button>
+                    <div id="descricao-js">
+                        <p>
+                            O JavaScript é uma linguagem de programação utilizada principalmente no desenvolvimento web. Ele é fundamental para criar sites interativos, dinâmicos e responsivos. O JavaScript é executado diretamente no navegador do usuário (lado do cliente), embora também possa ser usado no servidor, com o auxílio de ambientes como Node.js.</p>
+                     </div>
+                     
+                </div>
+
+                <div class="caixas-ling">
+                    <button onclick="toggle('descricao-css')"><img src="imagens/css.png"></button>
+
+                    <div id="descricao-css">
+                        <p>
+                            CSS (Cascading Style Sheets, ou Folhas de Estilo em Cascata) é uma linguagem de estilo usada para descrever a apresentação de documentos HTML ou XML. O CSS define como os elementos em uma página web devem ser exibidos — ou seja, ele controla o layout, as cores, a tipografia, as margens, os espaços, a disposição dos elementos, entre outros aspectos visuais.</p>
+                     </div>
+                </div>
+
+                <div class="caixas-ling">
+                    <button onclick="toggle('descricao-html')"><img src="imagens/html.png"></button>
+
+                    <div id="descricao-html">
+                        <p>HTML (HyperText Markup Language, ou Linguagem de Marcação de Hipertexto) é a linguagem padrão usada para criar e estruturar o conteúdo de páginas na web. Ele não é uma linguagem de programação, mas sim uma linguagem de marcação que define a estrutura básica de um site, incluindo textos, imagens, links, tabelas, listas e outros elementos.</p>
+                     </div>
+                </div>
+
+                <div class="caixas-ling">
+                    <button onclick="toggle('descricao-c')"><img src="imagens/C.png">
+                    </button>
+
+                    <div id="descricao-c">
+                        <p>A linguagem de programação C é uma linguagem de programação de baixo nível, desenvolvida por Dennis Ritchie no início da década de 1970, no Laboratório de Pesquisa de Computação da AT&T. Ela foi inicialmente criada para escrever o sistema operacional Unix, mas rapidamente se tornou uma das linguagens de programação mais populares e influentes devido à sua simplicidade, eficiência e portabilidade.</p>
+                     </div>
+                </div>
+
+                <div class="caixas-ling">
+                    <button onclick="toggle('descricao-java')"><img src="imagens/Java.png"></button>
+
+                    <div id="descricao-java">
+                        <p>Java é uma linguagem de programação orientada a objetos e de alto nível, criada por James Gosling e desenvolvida inicialmente pela Sun Microsystems (agora parte da Oracle) na década de 1990. A linguagem foi projetada com o objetivo de ser portável, segura, robusta e de alto desempenho. O slogan do Java é "Write Once, Run Anywhere" (Escreva uma vez, execute em qualquer lugar), o que significa que o código Java pode ser executado em qualquer dispositivo que tenha uma Java Virtual Machine (JVM), sem a necessidade de recompilar.</p>
+                     </div>
+                </div>
+
+                <div class="caixas-ling">
+                    <button onclick="toggle('descricao-pb')"><img src="imagens/powerbi.png"></button>
+
+                    <div id="descricao-pb">
+                        <p>Power BI é uma plataforma de análise de negócios desenvolvida pela Microsoft, que permite que usuários criem relatórios interativos e painéis de controle (dashboards) a partir de dados de várias fontes. Ele foi projetado para transformar dados brutos em informações significativas e visuais, ajudando empresas a tomar decisões baseadas em dados.
+
+                            A plataforma é amplamente utilizada por analistas de dados, profissionais de TI e executivos para explorar, visualizar e compartilhar informações de forma eficaz. O Power BI integra facilmente com diversas fontes de dados, como bancos de dados, planilhas Excel, serviços na nuvem e até mesmo fontes de dados web.</p>
+                     </div>
+                </div>
+
+                <div class="caixas-ling">
+                    <button onclick="toggle('descricao-sql')"><img src="imagens/sqlserver.png"></button>
+
+                    <div id="descricao-sql">
+                        <p>SQL (Structured Query Language) é uma linguagem de programação padronizada usada para gerenciar bancos de dados relacionais e realizar diversas operações em dados armazenados, como consultas, inserções, atualizações e exclusões. SQL é fundamental para trabalhar com bancos de dados e é amplamente utilizada por desenvolvedores, analistas de dados e administradores de banco de dados (DBAs) para manipulação de dados.</p>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h1>Projetos</h1>
+            <div class="projetos">
+                <div class="caixas-pro">
+                    <a href="https://nathanols.github.io/Tela-login/" target="_blank" >Projeto Tela </a>
+                    <div >
+                        <img src="imagens/tela-login.png">
+                    </div>
+                </div>
+
+                <div class="caixas-pro">
+                    <a href="https://" target="_blank" >Projeto Netflix</a>
+                    <div >
+                        <img src="imagens/netflix.png">
+                    </div>
+                </div>
+
+                <div class="caixas-pro">
+                    <a href="https://nathanols.github.io/Site-cordel/" target="_blank" >Projeto Cordel</a>
+                    <div >
+                        <img src="imagens/cordel.png">
+                    </div>
+                </div>
+
+                <div class="caixas-pro">
+                    <a href="https://nathanols.github.io/Media-Query/" target="_blank" >Projeto Media Query</a>
+                    <div >
+                        <img src="imagens/media-query.png">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        <a href="https://www.linkedin.com/in/nathan-luna/" target="_blank">Meu Linkedin</a>
+    </footer>
+</body>
+</html>
