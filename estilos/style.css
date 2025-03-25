@@ -1,0 +1,322 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --azulclaro:#61dee2;
+    --azulescuro:#024cad;
+    --dourado:#b8920b;
+    --branco:#ffffff;
+    --preto:#000000;
+}
+
+.dark#portifolio .redes .caixa-redes{
+
+    background-color: black;
+}
+
+.dark#portifolio{
+    background-color: var(--branco);
+    
+}
+
+.dark#portifolio .letra{
+    color:var(--preto);
+    
+}
+
+.dark#portifolio .sobre{
+    border: solid 1px var(--preto);
+    background-color: #e2e1e1;
+}
+
+.dark .perfil img{
+    border: solid 1px var(--preto);
+}
+
+.dark#portifolio .menu .list{
+    border: solid 1px var(--preto);
+    color: var(--preto);
+}
+.dark#portifolio section h1{
+    color: var(--preto);
+}
+
+.dark#portifolio .caixas-ling{
+    color: var(--preto);
+    border: solid var(--preto);
+}
+
+.dark#portifolio .caixas-ling p{
+    color: var(--preto);
+
+}
+
+.dark#portifolio .caixas-pro a{
+    color: var(--preto)
+}
+
+.btn:focus{
+    outline-style: none;
+}
+
+header{
+    background-image: linear-gradient(to right,var(--azulclaro),var(--azulescuro));
+    width: 100vw;
+    padding: 10px 0px;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.navbar{
+    display: flex;
+    
+}
+
+
+.titulo{
+    font-size: 30px;
+    width: 80vw;
+    display: flex;
+    justify-content: start;
+    margin-top: 7px;
+}
+
+.icon-dark{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    color: var(--branco);
+    cursor: pointer;
+}
+
+#mode_icon{
+    position: absolute;
+}
+
+.menu-icon{
+    display: block;
+    text-align: right;
+    margin-right: 25px;
+    
+}
+
+.menu-icon :hover{
+    cursor: pointer;
+}
+
+li{
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+}
+
+.list{
+    display: none;
+    background-color: transparent;
+    position: absolute;
+    width: 100px;
+    padding: 5px 3px;
+    margin-right: 20px;
+    border-radius: 8px;
+    border: solid 1px var(--branco);
+    text-align: center;
+    color: var(--branco);
+    line-height: 25px;
+    font-size: 1.2em;
+    
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+.open{
+    display: block;
+}
+
+
+main{
+    width:100vw;
+    height: 100%;
+    background-color: #262626;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+}
+
+.foto img{
+    width: 180px;
+    border-radius:50%;
+    border: solid 2px var(--branco);
+    margin-top: 60px;
+}
+
+.apresentacao{
+    margin-top: 25px;
+    font-size: 1em;
+    color: var(--branco);
+    width: 85vw;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.caixa-redes{
+    border: solid 1px var(--branco);
+    color: var(--branco);
+    border-radius: 8px;
+}
+
+.caixa-redes img{
+    width: 30px;
+    padding: 5px;
+    
+}
+
+
+h3{
+    color: #9c9c9c;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sobre{
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+    color: var(--branco);
+    border: solid 1px var(--branco);
+    text-align: justify;
+    padding: 10px;
+}
+
+section h1{
+    text-align: center;
+    font-size: 40px;
+    color: var(--branco);
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.linguagens{
+    margin: auto;
+}
+
+.caixas-ling img{
+    width: 140px;
+}
+
+.caixas-ling{
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 240px;
+    border: solid var(--branco);
+    border-radius: 10px;
+}
+
+#descricao-js{
+    display: none;
+    width: 240px;
+}
+
+#descricao-css{
+    display: none;
+    width: 240px;
+}
+
+#descricao-html{
+    display: none;
+    width: 240px;
+}
+
+#descricao-c{
+    display: none;
+    width: 240px;
+}
+
+#descricao-java{
+    display: none;
+    width: 240px;
+}
+
+#descricao-pb{
+    display: none;
+    width: 240px;
+}
+
+#descricao-sql{
+    display: none;
+    width: 240px;
+}
+
+.caixas-ling p{
+    color: var(--branco);
+}
+
+.projetos{
+    display:flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+.caixas-pro img{
+    width: 400px;
+}
+
+.caixas-pro{
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    margin-bottom: 17px;
+}
+
+.caixas-pro a{
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 23px;
+    
+}
+
+.caixas-pro a:hover{
+    text-decoration: underline;
+}
+
+footer a{
+    color: var(--branco);
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+footer{
+    background-color: var(--azulescuro);
+    width: 102%;
+    height: 35px;
+    text-align: center;
+    align-content: center;
+}
