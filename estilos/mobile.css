@@ -1,26 +1,4 @@
 
-
-@media (min-width: 992px) {
-    
-
-
-    .perfil{
-        color: var(--branco);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 800px;
-        margin: auto;
-    }
-
-    .apresentacao{
-        display: block;
-        width: 10px;
-    }
-
-
-}
-
 @media(max-width: 900px) {
 
     .hero {
