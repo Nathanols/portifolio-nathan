@@ -253,38 +253,5 @@ footer {
     border: 2px solid #38bdf8;
 }
 
-@media(max-width: 900px) {
 
-    .hero {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
 
-    .hero-text h1 {
-        font-size: 3rem;
-    }
-
-    .hero-buttons,
-    .socials {
-        justify-content: center;
-    }
-
-    .menu-btn {
-        display: flex;
-    }
-
-    .nav-links {
-        position: absolute;
-        top: 80px;
-        right: -100%;
-        width: 250px;
-        background: #1e293b;
-        flex-direction: column;
-        padding: 30px;
-        transition: 0.3s;
-    }
-
-    .nav-links.active {
-        right: 0;
-    }
-}
